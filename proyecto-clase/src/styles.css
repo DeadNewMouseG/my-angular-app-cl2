@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+
+    --variableParrafo: 2rem;
+    --color1: #A20EE9;
+    --color2: #000000;
+    --color3: #FFFFFF;
+    --fuente: SUSE;
+    --colores-div-general: #ff946a;
+    --ancho-div-general: 300px;
+    --margen-div-general: auto;
+    --colores-div-sec: #89eff7;
+    --ancho-div-sec: 150px;
+    --margen-div-sec: auto;
+    --alinear-div-general: left;
+    --alinear-div-sec: right;
+}
+
+p {
+
+    color: var(--color1);
+    font-size: var(--variableParrafo);
+
+}
+
+table {
+    background-color: var(--color1);
+    font-family: var(--fuente);
+}
+
+th {
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+td {
+    background-color: var(--color3);
+}
+
+.general {
+    background-color: var(--colores-div-general);
+    width: var(--ancho-div-general);
+    margin: var(--margen-div-general);
+    float: var(--alinear-div-general);
+
+}
+
+.subgeneral {
+    background-color: var(--colores-div-sec);
+    width: var(--ancho-div-sec);
+    margin: var(--margen-div-sec);
+    float: var(--alinear-div-sec)
+}
